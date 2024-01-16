@@ -13,6 +13,8 @@ def get_country_info():
         country_info = CountryInfo(country_name)
 
         # Display information
+        print("「Country Info」❄")
+        print("- - - - - - - - - - - - - - - - - - - ")
         print("\nCountry Information:")
         print(f"Name: {country_info.name()}")
         print(f"Capital: {country_info.capital()}")
